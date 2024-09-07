@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker run -d --name telegram-bot -e TELEGRAM_TOKEN=your_telegram_bot_token telegram-bot
+      run: docker run -d --name telegram-bot -e TELEGRAM_TOKEN=7249113952:AAF6EUkeLkqlfaZA3EowVhgYtNVEzzBkihQ
