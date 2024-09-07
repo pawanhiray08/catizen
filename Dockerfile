@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Define environment variable
-ENV TELEGRAM_TOKEN=your_telegram_bot_token
+ENV TELEGRAM_TOKEN=7249113952:AAF6EUkeLkqlfaZA3EowVhgYtNVEzzBkihQ
 
 # Run bot.py when the container launches
 CMD ["python", "bot.py"]
